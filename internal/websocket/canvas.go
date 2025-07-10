@@ -9,7 +9,7 @@ import (
 const (
 	CanvasWidth  = 32
 	CanvasHeight = 32
-	DefaultColor = "#FFFFFF"
+	DefaultColor = "#0d1117"
 )
 
 type PixelCanvas struct {
