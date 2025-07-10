@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	"app-server/internal/websocket"
+	"backend-pxl/internal/websocket"
 
 	"github.com/gin-gonic/gin"
 )
@@ -37,6 +37,6 @@ func (h *WebSocketHandler) HandleWebSocket(c *gin.Context) {
 func (h *WebSocketHandler) GetStats(c *gin.Context) {
 	c.JSON(http.StatusOK, gin.H{
 		"connected_clients": h.hub.GetClientCount(),
-		"status":           "active",
+		"status":            "active",
 	})
 }

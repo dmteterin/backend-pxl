@@ -9,9 +9,9 @@ import (
 	"syscall"
 	"time"
 
-	"app-server/internal/handlers"
-	"app-server/internal/middleware"
-	"app-server/internal/websocket"
+	"backend-pxl/internal/handlers"
+	"backend-pxl/internal/middleware"
+	"backend-pxl/internal/websocket"
 
 	"github.com/gin-gonic/gin"
 )
